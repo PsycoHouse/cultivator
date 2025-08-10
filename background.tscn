@@ -44,5 +44,6 @@ scale = Vector2(1, 1)
 scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_e8087")
 animation = &"right"
-frame = 2
+frame_progress = 0.106906
+speed_scale = 0.5
 script = ExtResource("6_6i7po")

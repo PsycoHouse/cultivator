@@ -37,12 +37,12 @@ position = Vector2(962, 857)
 scale = Vector2(1.875, 1.67188)
 texture = ExtResource("1_bpugw")
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Node2D" type="CharacterBody2D" parent="."]
 scale = Vector2(1, 1)
+script = ExtResource("6_6i7po")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D"]
 scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_e8087")
 animation = &"right"
 frame = 2
-script = ExtResource("6_6i7po")
